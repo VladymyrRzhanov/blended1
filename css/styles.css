@@ -1,0 +1,194 @@
+:root {
+  --accent: #4985ff;
+  --main-title-color: #ffffff;
+  --main-text-color: #999999;
+  --secondary-title-color: #323232;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Шапка */
+
+.header {
+  background-color: #323232;
+}
+
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--white-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Герой */
+
+.hero {
+  background-color: #323232;
+}
+
+.hero-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.hero-title {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.button {
+  display: flex;
+  width: 200px;
+  height: 45px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--white-color);
+
+  background: var(--accent);
+  box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+}
+
+/* Мобильные приложения */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+}
+
+.mobile-title {
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+
+.page-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.56;
+  color: var(--main-text-color);
+}
+
+.mobile-text {
+  text-align: center;
+}
+
+.mobile-item-title,
+.footer-item-title,
+.subscription-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #000000;
+}
+
+.mobile-item-text,
+.footer-item-text {
+  font-size: 14px;
+}
+
+/* Стандарты разработки */
+
+.standart {
+  background-color: #f6f6f8;
+}
+
+.details {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--accent);
+}
+
+.standart-item span {
+  font-size: 36px;
+  line-height: 1.47;
+  color: #000000;
+}
+
+/* Наши работы */
+
+.works {
+  background-color: #504dc2;
+}
+.works-item-title span {
+  color: var(--accent);
+}
+
+.works-title {
+  color: var(--main-title-color);
+}
+
+/* Наши проекты */
+
+.projects-title,
+.projects-text,
+.video-title,
+.video-text,
+.subscription-item-title,
+.subscription-text {
+  text-align: center;
+}
+
+/* Видео о работе */
+
+.video {
+  background-color: #323232;
+}
+
+.video-title {
+  color: var(--main-title-color);
+}
+
+.video-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.56;
+  color: var(--main-title-color);
+
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 200px;
+}
+
+/* Подписка */
+
+/* Футер */
+
+.footer {
+  background-color: #f6f6f8;
+}
+
+.address {
+  font-style: normal;
+}
+
+.copyright {
+  font-size: 13px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--main-text-color);
+}
